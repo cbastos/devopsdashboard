@@ -1,0 +1,55 @@
+{
+  "realm" : "dashboards",
+  "users" : [ {
+    "id" : "12f63e06-a13d-427b-8df3-effe50f055e9",
+    "createdTimestamp" : 1611820905726,
+    "username" : "administrator",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "Admin",
+    "email" : "admin@admin.com",
+    "credentials" : [ {
+      "id" : "1b043d00-ce93-4075-8aa7-df51ce1065e8",
+      "type" : "password",
+      "createdDate" : 1612513987441,
+      "secretData" : "{\"value\":\"5ilIJ0dZYAdb7L71cKeeQSPPpokH9HMedz/Gvh0LVVhs2/CgKTHw/nxslwl6PmYR+qkfd77OUOLF4Cq7rwl54w==\",\"salt\":\"k+4cbM1TJmtIFzqTd4ZTYQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "app-admin" ],
+    "clientRoles" : {
+      "dashboards" : [ "DashboardsAdmin" ],
+      "account" : [ "view-profile", "manage-account" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "107486d0-d192-4a53-9d7e-781fa857622c",
+    "createdTimestamp" : 1611820964574,
+    "username" : "baseuser",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "Usuario",
+    "lastName" : "Base",
+    "email" : "baseuser@baseuser.com",
+    "credentials" : [ {
+      "id" : "9d4d3ee3-649e-45b2-b724-f9be2d0cbacc",
+      "type" : "password",
+      "createdDate" : 1612515457625,
+      "secretData" : "{\"value\":\"6Xin7w4Lo/tnzr/qdOpcX5YTrge+cJNDJ3VgohG20dZC2fMlXwWLSMWnQ0zTWuPxRVk3GWZ1UXjBox1KqwhGiQ==\",\"salt\":\"cTKT7V4ZKfhOChSCUXYhXQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "app-user" ],
+    "clientRoles" : {
+      "dashboards" : [ "DashboardsUser" ],
+      "account" : [ "view-profile", "manage-account" ]
+    },
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}

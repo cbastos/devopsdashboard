@@ -1,0 +1,7 @@
+**/node_modules
+api/swagger.json
+**/.eslintcache
+api/coverage
+_tests/debug.log
+_tests/cypress/videos
+_tests/cypress/screenshots

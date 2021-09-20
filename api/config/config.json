@@ -1,0 +1,12 @@
+{
+	"dataToCache": [],
+	"scheduleInfo": {
+		"timer": {
+			"hour": 13,
+			"minute": 30,
+			"dayOfWeek": null
+		},
+		"enable": true
+	},
+	"chunk": 5
+}

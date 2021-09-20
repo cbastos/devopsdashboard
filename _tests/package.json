@@ -1,0 +1,24 @@
+{
+  "name": "@devopsdashboard/tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "test": "cross-env HTTP_PROXY=http://proxydsi:8080 cypress run",
+    "test:browser": "cypress open"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "cd ../api && npm test"
+    }
+  },
+  "dependencies": {
+    "cypress": "^6.2.1",
+    "husky": "^4.3.7"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

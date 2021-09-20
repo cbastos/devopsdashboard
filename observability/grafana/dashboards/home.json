@@ -1,0 +1,77 @@
+{  
+  "id": 1,
+  "editable": true,
+  "links": [],
+  "panels": [
+    {
+      "datasource": null,
+      "folderId": null,
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 0,
+        "y": 0
+      },
+      "headings": true,
+      "id": 2,
+      "limit": 30,
+      "links": [],
+      "query": "",
+      "recent": false,
+      "search": true,
+      "starred": false,
+      "tags": ["MySQL"],
+      "title": "MySQL",
+      "type": "dashlist"
+    },
+    {
+      "datasource": null,
+      "folderId": null,
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 8,
+        "y": 0
+      },
+      "headings": true,
+      "id": 3,
+      "limit": 30,
+      "links": [],
+      "query": "",
+      "recent": false,
+      "search": true,
+      "starred": false,
+      "tags": ["redis"],
+      "title": "Redis",
+      "type": "dashlist"
+    },
+    {
+      "datasource": null,
+      "folderId": null,
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 16,
+        "y": 0
+      },
+      "headings": true,
+      "id": 4,
+      "limit": 30,
+      "links": [],
+      "query": "",
+      "recent": false,
+      "search": true,
+      "starred": false,
+      "tags": ["node.js"],
+      "title": "NodeJS",
+      "type": "dashlist"
+    }
+  ],
+  "schemaVersion": 26,
+  "style": "dark", 
+  "tags": [],
+  "timezone": "browser",
+  "title": "Home",
+  "uid": "4UNfekYMz",
+  "version": 3
+}
