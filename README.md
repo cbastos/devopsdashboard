@@ -10,6 +10,8 @@ The focus has been set on the personal data consumption more than the code clean
 
 ## Architecture
 
+![devopdashboardfinal](https://user-images.githubusercontent.com/3080780/133967726-fd81447b-e876-403b-8f51-d66df918176c.png)
+
 It has the following parts:
 
 - **Web (SPA)** (Single Page Application): web with the app's user interface.
